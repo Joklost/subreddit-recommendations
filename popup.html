@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Suggestiongs</title>
+        <style>
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+}
+#suggestions {
+    min-width: 300px;
+    /* avoid an excessively wide status text */
+    /*white-space: pre;*/
+    /*text-overflow: ellipsis;*/
+    /*overflow: hidden;*/
+    /*max-width: 10000px;*/
+}
+        </style>
+
+        <script src="jquery.min.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <p id="suggestions">
+        Loading...
+        </p>
+        <img src="up.png" width="50" id="up_img" title="Relevant suggestions" hidden />
+        <img src="down.png" width="50" id="down_img" title="Irrelevant suggestions" hidden />
+        <p id="feedback" hidden>
+        Thank you for your feedback.
+        </p>
+    </body>
+</html>

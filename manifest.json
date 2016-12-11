@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Subreddit Recommendations",
+  "description": "This extension recommends you subreddits you might like.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "tabs"
+  ]
+}
